@@ -6,10 +6,8 @@ import SearchCountries from './components/SearchCountries'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <ShowCountries/>
-        <SearchCountries/>
-      </header>
+      <ShowCountries/>
+      <SearchCountries/>
     </div>
   );
 }
